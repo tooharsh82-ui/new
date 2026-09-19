@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #130722;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b1968;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}

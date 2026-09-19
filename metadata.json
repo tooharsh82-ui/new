@@ -1,0 +1,6 @@
+{
+  "name": "Studio Manju Sri",
+  "description": "Editorial wedding and portrait photography studio near Sapna Cinema, Shivganj, Arrah, Bihar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
